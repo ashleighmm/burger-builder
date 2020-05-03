@@ -89,6 +89,6 @@
   "devDependencies": {
     "braces": "3.0.2",
     "mem": "6.1.0",
-    "webpack-dev-server": "^2.9.7"
+    "webpack-dev-server": "^3.1.11"
   }
 }
