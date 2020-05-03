@@ -88,6 +88,7 @@
   },
   "devDependencies": {
     "braces": "3.0.2",
+    "js-yaml": "^3.13.1",
     "mem": "6.1.0",
     "webpack-dev-server": "^2.9.7"
   }
