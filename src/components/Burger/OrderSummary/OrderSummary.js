@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Aux from './../../../hoc/Aux';
+
 const orderSummary = (props) => {
     const ingredientSummary = Object.keys(props.ingredients)
         .map(ingredientKey => {
@@ -16,6 +17,8 @@ const orderSummary = (props) => {
                 {ingredientSummary}
             </ul>
             <p>Continue to Checkout?</p>
+            <button>CANCEL</button>
+            <button>CONTINUE</button>
         </Aux>
     )
 }
